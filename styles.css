@@ -54,7 +54,6 @@ h1 {
     left: 10%;
 }
 #about_me {
-    font-family: 'Merienda', cursive;
     position: relative;
     padding-left: 25%;
     font-size: 2rem;   
@@ -77,7 +76,7 @@ h1 {
     width: 50%;
 }
 
-#skills h2 {
+h2 {
     font-family: 'Merienda', cursive;
     font-size: 2rem;
 
@@ -89,7 +88,17 @@ h1 {
     padding-left: 12%;
 }
 
+#projects {
+    padding: 0 13%;
+    font-size: 1.5rem;
+    width: 50%;
+}
 
+
+.project-item {
+    text-decoration: none;
+    color: black;
+}
 footer {
     position: relative;
     text-align: center;
