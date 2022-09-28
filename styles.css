@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width:fit-content;
 }
 
 header {
@@ -56,8 +56,8 @@ h1 {
 #about_me {
     font-family: 'Merienda', cursive;
     position: relative;
-    left: 25%;
-    font-size: 2rem;
+    padding-left: 25%;
+    font-size: 2rem;   
 }
 
 #about p {
@@ -71,16 +71,23 @@ h1 {
 }
 
 #skills {
-    position: relative;
-    left: 25%;
+    display: block;
+    text-align: center;
     font-size: 2rem;
+    width: 50%;
 }
 
 #skills h2 {
     font-family: 'Merienda', cursive;
     font-size: 2rem;
+
 }
 
+.skills-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 12%;
+}
 
 
 footer {
