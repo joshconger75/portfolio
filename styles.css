@@ -101,11 +101,24 @@ h2 {
 footer {
     position: relative;
     text-align: center;
-    font-size: 2rem;
-    
+    margin-top: 5rem;  
 }
 
 .contact {
     font-size: 1.5rem;
     text-align: center;
+    align-content: center;
+}
+
+.contact-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.contact-container i {
+    color:black;
+    
 }
