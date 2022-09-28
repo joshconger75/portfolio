@@ -1,8 +1,88 @@
-* {
+body {
     font-family: 'Faustina', serif;
     box-sizing: border-box;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     font-family: 'Merienda', cursive;
+    text-align:center;
+    display: inline-flex;
+    justify-content:space-evenly;
+}
+
+header h1 {
+    display: flex;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+h1 {
+    font-size: 3.5rem;
+}
+#about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4fr 4fr 4fr;
+    width: 80%;
+    justify-content: center;
+    position: relative;
+    border: 1px solid black;
+    left: 10%;
+}
+#about_me {
+    font-family: 'Merienda', cursive;
+    position: relative;
+    left: 25%;
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+}
+
+.picture {
+    max-width: 50%;
+    grid-area: 1 / 2 / span 3 / span 1;
+    justify-self: center;
+}
+
+#skills {
+    position: relative;
+    left: 25%;
+    font-size: 2rem;
+}
+
+#skills h2 {
+    font-family: 'Merienda', cursive;
+    font-size: 2rem;
+}
+footer {
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    
 }
