@@ -53,18 +53,31 @@ h1 {
 }
 #about_me {
     position: relative;
-    padding-left: 25%;
-    font-size: 2rem;   
+    padding-left: 25%; 
 }
 
 #about p {
     font-size: 1.5rem;
 }
 
-.picture {
-    max-width: 50%;
+#fig1{
     grid-area: 1 / 2 / span 3 / span 1;
-    justify-self: center;
+    justify-items: center;
+}
+
+#picture {
+    width: 100%;
+    /*justify-self: center;*/
+}
+
+#close{
+    display: none;
+    color: navy;
+    z-index: 3;
+}
+
+#close:hover {
+    cursor:pointer;
 }
 
 #skills {
@@ -120,4 +133,53 @@ footer {
 .contact-container i {
     color:black;
 
+}
+
+
+
+@media only screen and (max-width:600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .navigation-items{
+        display: block;
+    }
+
+    #about_me {
+        text-align: center;
+        padding: 0;
+    }
+
+    #about p, .contact {
+        font-size: 1rem;
+    }
+
+    .project-item {
+        font-size: 1rem;
+    }
+
+    #skills {
+        width:100%;
+    }
+
+    #projects {
+        width:100%;
+        text-align:center;
+        padding:0
+    }
+
+    #projects ul {
+        list-style-type:none;
+    }        
 }
